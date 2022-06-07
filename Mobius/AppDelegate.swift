@@ -7,18 +7,29 @@
 
 import UIKit
 import SwiftUI
+import ARKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    
+    let utils: GameCenterUtils = GameCenterUtils()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        
+        //Check if the device supports Geotracking
+        guard ARGeoTrackingConfiguration.isSupported else{
+            //Geo-tracking not supported on this device
+            return false
+            
+        }
+        
+        utils.authenticateUser()
+        
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
-
+        let contentView = ARGameplayView()
+        
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIHostingController(rootView: contentView)
