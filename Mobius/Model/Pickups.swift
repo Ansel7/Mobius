@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct Pickup{
     let type: Pickups
-    
+    let location: CLLocationCoordinate2D
 }
 
 enum Pickups{

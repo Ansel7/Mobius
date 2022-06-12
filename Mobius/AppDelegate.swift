@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
-    let utils: GameCenterUtils = GameCenterUtils()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -25,10 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
         
-        utils.authenticateUser()
-        
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ARGameplayView()
+        let contentView = StartView()
         
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)

@@ -8,6 +8,8 @@
 import SwiftUI
 import ARKit
 import RealityKit
+import GameKit
+import Combine
 
 class ARBattleRoyal : ObservableObject{
     
@@ -15,24 +17,65 @@ class ARBattleRoyal : ObservableObject{
     
     //var players: Array<BattleRoyal.Player>
     
-    init(){
+    @Published public var gkInvite: GKInvite?
+    @Published public var gkMatch: GKMatch?
+    
+    private var cancellableInvite: AnyCancellable?
+    private var cancellableMatch: AnyCancellable?
+    private var cancellableLocalPlayer: AnyCancellable?
+    
+    public init() {
         
         model = BattleRoyal()
         
-       // players = model.players
-        
+//        self.cancellableInvite = GKMatchManager
+//            .shared
+//            .invite
+//            .sink { (invite) in
+//                self.gkInvite = invite.gkInvite
+//            }
+//        self.cancellableMatch = GKMatchManager
+//            .shared
+//            .match
+//            .sink { (match) in
+//                self.gkMatch = match.gkMatch
+//            }
+//        self.cancellableLocalPlayer = GKMatchManager
+//            .shared
+//            .localPlayer
+//            .sink { (localPlayer) in
+//                // current GKLocalPlayer.local
+//            }
+//
+//        // players = model.players
+
         //Check current location is supported for geo tracking
         ARGeoTrackingConfiguration.checkAvailability{ (available, error) in
             guard available else {
                 //Geo-tracking not supported at current location
                 return
             }
-            
+
             //Run ARSession
             let arView = ARView()
             arView.session.run(ARGeoTrackingConfiguration())
         }
-        
-        return
     }
+    
+    deinit {
+        self.cancellableInvite?.cancel()
+        self.cancellableMatch?.cancel()
+        self.cancellableLocalPlayer?.cancel()
+    }
+    
+    func startGame() -> some View{
+        
+        return StartView()
+        
+    }
+    
+    func wield(){
+        
+    }
+    
 }

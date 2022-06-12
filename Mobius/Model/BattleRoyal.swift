@@ -7,6 +7,7 @@
 
 import Foundation
 import GameKit
+import SwiftUI
 import CoreLocation
 
 struct BattleRoyal: Codable{
@@ -25,15 +26,18 @@ struct BattleRoyal: Codable{
 //        return 0
 //    }
 //
-//    init(numPlayers: Int, aquiredPlayerList: Array<Player>){
+    init(){//numPlayers: Int, aquiredPlayerList: Array<Player>){
 //        players = aquiredPlayerList
-//    }
+    }
 //
     
     //Battle Royal Player
     struct Player: Identifiable{
 
-        var id: Int
+        let id: Int
+        let image: String
+        let name: String
+        let color: Color
         var location: CLLocationCoordinate2D
         var health: Int
         var sheild: Int
@@ -42,10 +46,6 @@ struct BattleRoyal: Codable{
         
         //the player will have a bunch of items in their item pool
         private(set) var items: [Pickups]
-        
-//        init(){
-//
-//        }
 
         //Store the players location
     }

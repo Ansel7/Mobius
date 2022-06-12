@@ -11,13 +11,13 @@ import RealityKit
 //
 struct ARViewContainer: UIViewRepresentable {
     
+    @ObservedObject var game: ARBattleRoyal
+    
     //
     func makeUIView(context: Context) -> ARView {
         
         //
         let arView = ARView(frame: .zero)
-        
-        //Experience.Box.scale(
         
         //
         let boxAnchor = try! Experience.loadBox()

@@ -18,9 +18,15 @@
 		6013095B2840842F00455B84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6013095A2840842F00455B84 /* MapKit.framework */; };
 		6013095D2841F71A00455B84 /* BattleRoyal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013095C2841F71A00455B84 /* BattleRoyal.swift */; };
 		6020C2122844779C007A00D8 /* ARBattleRoyal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6020C2112844779C007A00D8 /* ARBattleRoyal.swift */; };
+		604DEBB928557F740055B463 /* GameCenterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604DEBB828557F740055B463 /* GameCenterUtils.swift */; };
+		6086843728529F7900F32442 /* AvailableGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086843628529F7900F32442 /* AvailableGamesView.swift */; };
+		6086843928544EA300F32442 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086843828544EA300F32442 /* StartButton.swift */; };
+		6092F5F428559A0400BEDFC0 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092F5F328559A0400BEDFC0 /* StartView.swift */; };
+		6092F5F62855B22000BEDFC0 /* WieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092F5F52855B22000BEDFC0 /* WieldButton.swift */; };
+		6092F5FA2855BC2000BEDFC0 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */; };
 		60C523A3284C83D0008A2EB3 /* Pickups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C523A2284C83D0008A2EB3 /* Pickups.swift */; };
+		60C523AB2850EBDF008A2EB3 /* FPSLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */; };
 		60FCE87E2847C8AF00F7BC35 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */; };
-		60FCE8802847CF8800F7BC35 /* GameCenterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FCE87F2847CF8800F7BC35 /* GameCenterUtils.swift */; };
 		60FCE88228483E5100F7BC35 /* ARGameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FCE88128483E5100F7BC35 /* ARGameplayView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,9 +63,15 @@
 		6013095A2840842F00455B84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6013095C2841F71A00455B84 /* BattleRoyal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleRoyal.swift; sourceTree = "<group>"; };
 		6020C2112844779C007A00D8 /* ARBattleRoyal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBattleRoyal.swift; sourceTree = "<group>"; };
+		604DEBB828557F740055B463 /* GameCenterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterUtils.swift; sourceTree = "<group>"; };
+		6086843628529F7900F32442 /* AvailableGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableGamesView.swift; sourceTree = "<group>"; };
+		6086843828544EA300F32442 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		6092F5F328559A0400BEDFC0 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		6092F5F52855B22000BEDFC0 /* WieldButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieldButton.swift; sourceTree = "<group>"; };
+		6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameView.swift; sourceTree = "<group>"; };
 		60C523A2284C83D0008A2EB3 /* Pickups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickups.swift; sourceTree = "<group>"; };
+		60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLayoutView.swift; sourceTree = "<group>"; };
 		60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
-		60FCE87F2847CF8800F7BC35 /* GameCenterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterUtils.swift; sourceTree = "<group>"; };
 		60FCE88128483E5100F7BC35 /* ARGameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +172,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6092F5F72855BBB300BEDFC0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6086843828544EA300F32442 /* StartButton.swift */,
+				6092F5F52855B22000BEDFC0 /* WieldButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		6092F5F82855BBD000BEDFC0 /* ARViews */ = {
+			isa = PBXGroup;
+			children = (
+				60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */,
+				60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */,
+				60FCE88128483E5100F7BC35 /* ARGameplayView.swift */,
+			);
+			path = ARViews;
+			sourceTree = "<group>";
+		};
 		60FCE88328483E6000F7BC35 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,8 +202,8 @@
 		60FCE88428483E7E00F7BC35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				60FCE87F2847CF8800F7BC35 /* GameCenterUtils.swift */,
 				6013095C2841F71A00455B84 /* BattleRoyal.swift */,
+				604DEBB828557F740055B463 /* GameCenterUtils.swift */,
 				60C523A2284C83D0008A2EB3 /* Pickups.swift */,
 			);
 			path = Model;
@@ -181,8 +212,11 @@
 		60FCE88528483E9000F7BC35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */,
-				60FCE88128483E5100F7BC35 /* ARGameplayView.swift */,
+				6092F5F82855BBD000BEDFC0 /* ARViews */,
+				6086843628529F7900F32442 /* AvailableGamesView.swift */,
+				6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */,
+				6092F5F328559A0400BEDFC0 /* StartView.swift */,
+				6092F5F72855BBB300BEDFC0 /* Buttons */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +237,8 @@
 			dependencies = (
 			);
 			name = Mobius;
+			packageProductDependencies = (
+			);
 			productName = Mobius;
 			productReference = 60100E5B2840499600548B7F /* Mobius.app */;
 			productType = "com.apple.product-type.application";
@@ -320,13 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6092F5FA2855BC2000BEDFC0 /* CreateGameView.swift in Sources */,
+				6092F5F62855B22000BEDFC0 /* WieldButton.swift in Sources */,
 				60100E5F2840499700548B7F /* AppDelegate.swift in Sources */,
 				60100E632840499700548B7F /* Experience.rcproject in Sources */,
+				604DEBB928557F740055B463 /* GameCenterUtils.swift in Sources */,
+				6092F5F428559A0400BEDFC0 /* StartView.swift in Sources */,
 				60FCE87E2847C8AF00F7BC35 /* ARViewContainer.swift in Sources */,
-				60FCE8802847CF8800F7BC35 /* GameCenterUtils.swift in Sources */,
+				6086843928544EA300F32442 /* StartButton.swift in Sources */,
+				60C523AB2850EBDF008A2EB3 /* FPSLayoutView.swift in Sources */,
 				60C523A3284C83D0008A2EB3 /* Pickups.swift in Sources */,
 				6013095D2841F71A00455B84 /* BattleRoyal.swift in Sources */,
 				6020C2122844779C007A00D8 /* ARBattleRoyal.swift in Sources */,
+				6086843728529F7900F32442 /* AvailableGamesView.swift in Sources */,
 				60FCE88228483E5100F7BC35 /* ARGameplayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
