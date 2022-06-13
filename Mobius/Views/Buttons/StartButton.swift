@@ -77,17 +77,9 @@ struct StartButton: View{
                 )
         }
         .animation(.spring(response: 0.5, dampingFraction: 0.5, blendDuration: 0))
+        
     }
 }
-
-
-
-
-
-
-
-
-
 
 struct Buttons_Previews: PreviewProvider {
     static var previews: some View {

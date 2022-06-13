@@ -14,7 +14,7 @@ struct StartView: View {
     private let buttonWidth: CGFloat = 350
     private let buttonHeight: CGFloat = 80
     
-    private let utils = GameCenterUtils()
+    let game: ARBattleRoyal
     
     var body: some View {
         
@@ -33,11 +33,13 @@ struct StartView: View {
                     .foregroundColor(.black)
                 
                 Spacer()
+                
                 Spacer()
                 
                 NavigationLink(destination: AvailableGamesView()){
                     
                     Text(buttonName)
+//                        .renderingMode(.original)
                         .font(.system(size: fontSize, weight: .semibold, design: .rounded))
                         .frame(width: buttonWidth, height: buttonHeight)
                         .background(
@@ -68,6 +70,7 @@ struct StartView: View {
                 }
                 .ignoresSafeArea(.all)
                 
+                .environmentObject(game)
                 
                 Spacer()
 
@@ -79,6 +82,12 @@ struct StartView: View {
             
             .edgesIgnoringSafeArea(.all)
             
+            .onAppear{
+                UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+                
+                AppDelegate.orientationLock = .portrait
+            }
+            
         }
         
     }
@@ -86,8 +95,8 @@ struct StartView: View {
 
 
 
-struct StartView_Previews: PreviewProvider {
-    static var previews: some View {
-        StartView()
-    }
-}
+//struct StartView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StartView()
+//    }
+//}

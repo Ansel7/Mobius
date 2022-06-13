@@ -12,45 +12,28 @@ import CoreLocation
 
 struct BattleRoyal: Codable{
     
-//    //list of players that have joined the match
-   // lazy private(set) var players: Array<Player>
-//    private(set) var location: CLLocationCoordinate2D
-//    
-//    //The
-//    func choose(_ player: Player) {
-//        let chosenIndex = index(of: player)
-//        print("Hello")
-//    }
-//
-//    func index(of: Player) -> Int {
-//        return 0
-//    }
-//
-    init(){//numPlayers: Int, aquiredPlayerList: Array<Player>){
-//        players = aquiredPlayerList
-    }
-//
     
-    //Battle Royal Player
-    struct Player: Identifiable{
-
-        let id: Int
-        let image: String
-        let name: String
-        let color: Color
-        var location: CLLocationCoordinate2D
-        var health: Int
-        var sheild: Int
-        //the first strike buffer will reduce the burden caused by your phone being necessary to interact with the world
-        private(set) var firstStrikeBuffer = 0
-        
-        //the player will have a bunch of items in their item pool
-        private(set) var items: [Pickups]
-
-        //Store the players location
-    }
     
 }
+//Battle Royal Player
+struct Player: Identifiable{
+
+      let id: Int
+      let image: String
+      let name: String
+      let color: Color
+      var location: CLLocationCoordinate2D
+      var health: Int
+      var sheild: Int
+      
+      //the first strike buffer will reduce the burden caused by your phone being necessary to interact with the world
+      private(set) var firstStrikeBuffer = 0
+      
+      //the player will have a bunch of items in their item pool
+      private(set) var items: [Pickups]
+
+      //Store the players location
+  }
 
 //
 extension BattleRoyal {

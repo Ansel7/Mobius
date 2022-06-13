@@ -15,39 +15,13 @@ class ARBattleRoyal : ObservableObject{
     
     private var model: BattleRoyal
     
-    //var players: Array<BattleRoyal.Player>
+    @Published var gameCenter = GameCenterViewModel()
     
-    @Published public var gkInvite: GKInvite?
-    @Published public var gkMatch: GKMatch?
-    
-    private var cancellableInvite: AnyCancellable?
-    private var cancellableMatch: AnyCancellable?
-    private var cancellableLocalPlayer: AnyCancellable?
-    
-    public init() {
+    public init(gameCent: GameCenterViewModel) {
+        
+        gameCenter = gameCent
         
         model = BattleRoyal()
-        
-//        self.cancellableInvite = GKMatchManager
-//            .shared
-//            .invite
-//            .sink { (invite) in
-//                self.gkInvite = invite.gkInvite
-//            }
-//        self.cancellableMatch = GKMatchManager
-//            .shared
-//            .match
-//            .sink { (match) in
-//                self.gkMatch = match.gkMatch
-//            }
-//        self.cancellableLocalPlayer = GKMatchManager
-//            .shared
-//            .localPlayer
-//            .sink { (localPlayer) in
-//                // current GKLocalPlayer.local
-//            }
-//
-//        // players = model.players
 
         //Check current location is supported for geo tracking
         ARGeoTrackingConfiguration.checkAvailability{ (available, error) in
@@ -62,17 +36,11 @@ class ARBattleRoyal : ObservableObject{
         }
     }
     
-    deinit {
-        self.cancellableInvite?.cancel()
-        self.cancellableMatch?.cancel()
-        self.cancellableLocalPlayer?.cancel()
-    }
-    
-    func startGame() -> some View{
-        
-        return StartView()
-        
-    }
+//
+//    func startGame() -> some View{
+//
+//
+//    }
     
     func wield(){
         
