@@ -9,17 +9,20 @@ import SwiftUI
 import RealityKit
 import GameKit
 
-struct ARGameplayView: View{
+struct ARGameplayView: View {
     
-    var ARBRGame: ARBattleRoyal
+    @Binding var viewState: ViewState
+    
+    @EnvironmentObject var game: ARBattleRoyal
+    
+    @EnvironmentObject var gameCenter: GameCenterViewModel
+    
+    let view = ARMtlView()
     
     var body: some View {
-        ZStack{
-            ARViewContainer(game: ARBRGame)
-            FPSLayoutView(game: ARBRGame)
-        }
+        view.appears()
+        return view
 
     }
     
 }
-

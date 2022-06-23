@@ -9,10 +9,14 @@ import SwiftUI
 
 class GameCenterViewModel: ObservableObject {
     
-    private var utils = GameCenterUtils()
+    @Published private var utils = GameCenterUtils()
     
     func loginToGameCenter(){
         utils.authenticateUser()
+    }
+    
+    func getGames() -> [ScheduledGame] {
+        utils.availableGames
     }
     
 }

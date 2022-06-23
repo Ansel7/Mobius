@@ -12,7 +12,7 @@ struct GameCenterUtils{
 
     //
     let localPlayer = GKLocalPlayer.local
-    var availableGames: [ScheduledGame] = []
+    var availableGames: [ScheduledGame] = Game_List.demoGame
 
     //
     func authenticateUser(){

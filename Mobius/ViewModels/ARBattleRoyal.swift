@@ -8,20 +8,15 @@
 import SwiftUI
 import ARKit
 import RealityKit
-import GameKit
-import Combine
+//import GameKit
 
 class ARBattleRoyal : ObservableObject{
     
-    private var model: BattleRoyal
+    private var model: BattleRoyal = BattleRoyal()
     
-    @Published var gameCenter = GameCenterViewModel()
+    private var game: ScheduledGame? = nil
     
-    public init(gameCent: GameCenterViewModel) {
-        
-        gameCenter = gameCent
-        
-        model = BattleRoyal()
+    init() {
 
         //Check current location is supported for geo tracking
         ARGeoTrackingConfiguration.checkAvailability{ (available, error) in
@@ -29,18 +24,12 @@ class ARBattleRoyal : ObservableObject{
                 //Geo-tracking not supported at current location
                 return
             }
-
-            //Run ARSession
-            let arView = ARView()
-            arView.session.run(ARGeoTrackingConfiguration())
         }
     }
     
-//
-//    func startGame() -> some View{
-//
-//
-//    }
+    func setGame(newGame: ScheduledGame) {
+        game = newGame
+    }
     
     func wield(){
         

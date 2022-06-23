@@ -8,17 +8,20 @@
 import Foundation
 import MapKit
 
-struct ScheduledGame{
+struct ScheduledGame: Identifiable{
     let name: String
+    let id = UUID()
     let host: String
-    let startTime: Date
+    let startTime: String
     
 }
 
 struct Game_List{
     
     static let demoGame = [
-        ScheduledGame(name: "Super Battle", host: "Abraham", startTime: Date())
+        ScheduledGame(name: "Super Battle", host: " Abraham ", startTime: "07/26/2022"),
+        ScheduledGame(name: "Fun Battle", host: " Abraham ", startTime: "07/26/2022"),
+        ScheduledGame(name: "Day Battle", host: " Abraham ", startTime: "07/26/2022")
     ]
     
 }

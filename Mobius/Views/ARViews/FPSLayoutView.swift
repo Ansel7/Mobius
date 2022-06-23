@@ -9,24 +9,19 @@ import SwiftUI
 
 struct FPSLayoutView: View {
     
-    @ObservedObject var game: ARBattleRoyal
+    @EnvironmentObject var game: ARBattleRoyal
     
     var body: some View {
         HStack{
+            Spacer()
             VStack{
-                Text("Hello")
+                Spacer()
+//                MiniMap()
+//                    .frame(width: 300, height: 300)
             }
         }
     }
     
-    struct WieldButton: View{
-        var body: some View{
-            ZStack{
-                Button("🔥"){
-                    //.Wield()
-                }
-            }
-        }
-    }
+    
 }
 

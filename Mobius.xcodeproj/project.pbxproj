@@ -14,21 +14,41 @@
 		60100E722840499800548B7F /* MobiusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60100E712840499800548B7F /* MobiusTests.swift */; };
 		60100E7C2840499800548B7F /* MobiusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60100E7B2840499800548B7F /* MobiusUITests.swift */; };
 		60100E7E2840499800548B7F /* MobiusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60100E7D2840499800548B7F /* MobiusUITestsLaunchTests.swift */; };
-		60100E8C28404A8500548B7F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60100E8B28404A8500548B7F /* GameKit.framework */; };
-		6013095B2840842F00455B84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6013095A2840842F00455B84 /* MapKit.framework */; };
 		6013095D2841F71A00455B84 /* BattleRoyal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013095C2841F71A00455B84 /* BattleRoyal.swift */; };
 		6020C2122844779C007A00D8 /* ARBattleRoyal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6020C2112844779C007A00D8 /* ARBattleRoyal.swift */; };
 		604DEBB928557F740055B463 /* GameCenterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604DEBB828557F740055B463 /* GameCenterUtils.swift */; };
 		6059D06228568BAB0036C159 /* GameCenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059D06128568BAB0036C159 /* GameCenterViewModel.swift */; };
 		6059D06428568C180036C159 /* ScheduledGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059D06328568C180036C159 /* ScheduledGame.swift */; };
+		6059D075285999670036C159 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6059D074285999670036C159 /* Metal.framework */; };
+		6059D077285999750036C159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6059D076285999750036C159 /* Foundation.framework */; };
+		6059D079285999820036C159 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6059D078285999820036C159 /* QuartzCore.framework */; };
+		6059D07A28599B360036C159 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60100E8B28404A8500548B7F /* GameKit.framework */; };
+		6059D07B28599B430036C159 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6013095A2840842F00455B84 /* MapKit.framework */; };
+		6059D0812859BCA90036C159 /* GameDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059D0802859BCA90036C159 /* GameDetailsView.swift */; };
 		6086843728529F7900F32442 /* AvailableGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086843628529F7900F32442 /* AvailableGamesView.swift */; };
-		6086843928544EA300F32442 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6086843828544EA300F32442 /* StartButton.swift */; };
 		6092F5F428559A0400BEDFC0 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092F5F328559A0400BEDFC0 /* StartView.swift */; };
 		6092F5FA2855BC2000BEDFC0 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */; };
 		60C523A3284C83D0008A2EB3 /* Pickups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C523A2284C83D0008A2EB3 /* Pickups.swift */; };
 		60C523AB2850EBDF008A2EB3 /* FPSLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */; };
-		60FCE87E2847C8AF00F7BC35 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */; };
+		60D8B9142862E03B000B6A83 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B90D2862E03A000B6A83 /* house.riv */; };
+		60D8B9152862E03B000B6A83 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B90E2862E03A000B6A83 /* confetti.riv */; };
+		60D8B9162862E03B000B6A83 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B90F2862E03A000B6A83 /* check.riv */; };
+		60D8B9172862E03B000B6A83 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B9102862E03A000B6A83 /* menu_button.riv */; };
+		60D8B9182862E03B000B6A83 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B9112862E03A000B6A83 /* shapes.riv */; };
+		60D8B9192862E03B000B6A83 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B9122862E03B000B6A83 /* button.riv */; };
+		60D8B91A2862E03B000B6A83 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 60D8B9132862E03B000B6A83 /* icons.riv */; };
+		60D8B91D2862E126000B6A83 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 60D8B91C2862E126000B6A83 /* RiveRuntime */; };
+		60D8B91F2862EDFD000B6A83 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8B91E2862EDFD000B6A83 /* ViewCoordinator.swift */; };
+		60D8B921286441A4000B6A83 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8B920286441A4000B6A83 /* CustomTextField.swift */; };
+		60D8B923286445D4000B6A83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8B922286445D4000B6A83 /* Extensions.swift */; };
+		60E167622862CC4700759E0D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1675D2862CC4700759E0D /* Renderer.swift */; };
+		60E167632862CC4700759E0D /* ARMtlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E1675E2862CC4700759E0D /* ARMtlView.swift */; };
+		60E167642862CC4700759E0D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 60E167602862CC4700759E0D /* Shaders.metal */; };
+		60FBC512286048B800C76E58 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC511286048B800C76E58 /* ARViewContainer.swift */; };
+		60FBC5142860BEDB00C76E58 /* TextShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FBC5132860BEDB00C76E58 /* TextShapes.swift */; };
 		60FCE88228483E5100F7BC35 /* ARGameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FCE88128483E5100F7BC35 /* ARGameplayView.swift */; };
+		60FE1B702861272E00F58CE2 /* MiniMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE1B6F2861272E00F58CE2 /* MiniMap.swift */; };
+		60FE1B732861274C00F58CE2 /* MapPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE1B722861274C00F58CE2 /* MapPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,14 +87,39 @@
 		604DEBB828557F740055B463 /* GameCenterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterUtils.swift; sourceTree = "<group>"; };
 		6059D06128568BAB0036C159 /* GameCenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterViewModel.swift; sourceTree = "<group>"; };
 		6059D06328568C180036C159 /* ScheduledGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledGame.swift; sourceTree = "<group>"; };
+		6059D06A285986B50036C159 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Desktop/opencv2.framework; sourceTree = "<group>"; };
+		6059D072285998CA0036C159 /* Foundation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Foundation; path = "../../metal-cpp/Foundation"; sourceTree = "<group>"; };
+		6059D073285999070036C159 /* Metal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Metal; path = "../../metal-cpp/Metal"; sourceTree = "<group>"; };
+		6059D074285999670036C159 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		6059D076285999750036C159 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6059D078285999820036C159 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6059D07C28599BBC0036C159 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../opencv2.framework; sourceTree = "<group>"; };
+		6059D0802859BCA90036C159 /* GameDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsView.swift; sourceTree = "<group>"; };
 		6086843628529F7900F32442 /* AvailableGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableGamesView.swift; sourceTree = "<group>"; };
-		6086843828544EA300F32442 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 		6092F5F328559A0400BEDFC0 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameView.swift; sourceTree = "<group>"; };
 		60C523A2284C83D0008A2EB3 /* Pickups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickups.swift; sourceTree = "<group>"; };
 		60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLayoutView.swift; sourceTree = "<group>"; };
-		60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		60D8B90D2862E03A000B6A83 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		60D8B90E2862E03A000B6A83 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		60D8B90F2862E03A000B6A83 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		60D8B9102862E03A000B6A83 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		60D8B9112862E03A000B6A83 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		60D8B9122862E03B000B6A83 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		60D8B9132862E03B000B6A83 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		60D8B91E2862EDFD000B6A83 /* ViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoordinator.swift; sourceTree = "<group>"; };
+		60D8B920286441A4000B6A83 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		60D8B922286445D4000B6A83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		60E1675D2862CC4700759E0D /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		60E1675E2862CC4700759E0D /* ARMtlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMtlView.swift; sourceTree = "<group>"; };
+		60E1675F2862CC4700759E0D /* Mobius-Bridging-Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mobius-Bridging-Headers.h"; sourceTree = "<group>"; };
+		60E167602862CC4700759E0D /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		60E167612862CC4700759E0D /* ShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		60FBC511286048B800C76E58 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		60FBC5132860BEDB00C76E58 /* TextShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShapes.swift; sourceTree = "<group>"; };
 		60FCE88128483E5100F7BC35 /* ARGameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameplayView.swift; sourceTree = "<group>"; };
+		60FE1B6F2861272E00F58CE2 /* MiniMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMap.swift; sourceTree = "<group>"; };
+		60FE1B722861274C00F58CE2 /* MapPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +127,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6013095B2840842F00455B84 /* MapKit.framework in Frameworks */,
-				60100E8C28404A8500548B7F /* GameKit.framework in Frameworks */,
+				6059D079285999820036C159 /* QuartzCore.framework in Frameworks */,
+				6059D077285999750036C159 /* Foundation.framework in Frameworks */,
+				6059D07B28599B430036C159 /* MapKit.framework in Frameworks */,
+				6059D075285999670036C159 /* Metal.framework in Frameworks */,
+				6059D07A28599B360036C159 /* GameKit.framework in Frameworks */,
+				60D8B91D2862E126000B6A83 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,11 +179,13 @@
 			children = (
 				601309592840842F00455B84 /* Info.plist */,
 				60100E5E2840499700548B7F /* AppDelegate.swift */,
+				60E1675C2862CBD300759E0D /* Metal */,
 				60FCE88528483E9000F7BC35 /* Views */,
 				60FCE88328483E6000F7BC35 /* ViewModels */,
 				60FCE88428483E7E00F7BC35 /* Model */,
 				60100E622840499700548B7F /* Experience.rcproject */,
 				60100E642840499800548B7F /* Assets.xcassets */,
+				60D8B90C2862E03A000B6A83 /* RiveAssets */,
 				60100E662840499800548B7F /* Preview Content */,
 			);
 			path = Mobius;
@@ -168,28 +219,63 @@
 		60100E8A28404A8500548B7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6059D07C28599BBC0036C159 /* opencv2.framework */,
+				6059D078285999820036C159 /* QuartzCore.framework */,
+				6059D076285999750036C159 /* Foundation.framework */,
+				6059D074285999670036C159 /* Metal.framework */,
+				6059D073285999070036C159 /* Metal */,
+				6059D072285998CA0036C159 /* Foundation */,
+				6059D06A285986B50036C159 /* opencv2.framework */,
 				6013095A2840842F00455B84 /* MapKit.framework */,
 				60100E8B28404A8500548B7F /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6092F5F72855BBB300BEDFC0 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				6086843828544EA300F32442 /* StartButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
 		6092F5F82855BBD000BEDFC0 /* ARViews */ = {
 			isa = PBXGroup;
 			children = (
 				60C523AA2850EBDF008A2EB3 /* FPSLayoutView.swift */,
-				60FCE87D2847C8AF00F7BC35 /* ARViewContainer.swift */,
 				60FCE88128483E5100F7BC35 /* ARGameplayView.swift */,
+				60FBC511286048B800C76E58 /* ARViewContainer.swift */,
 			);
 			path = ARViews;
+			sourceTree = "<group>";
+		};
+		60D8B90C2862E03A000B6A83 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				60D8B90D2862E03A000B6A83 /* house.riv */,
+				60D8B90E2862E03A000B6A83 /* confetti.riv */,
+				60D8B90F2862E03A000B6A83 /* check.riv */,
+				60D8B9102862E03A000B6A83 /* menu_button.riv */,
+				60D8B9112862E03A000B6A83 /* shapes.riv */,
+				60D8B9122862E03B000B6A83 /* button.riv */,
+				60D8B9132862E03B000B6A83 /* icons.riv */,
+			);
+			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		60D8B9242864471E000B6A83 /* UtilViews */ = {
+			isa = PBXGroup;
+			children = (
+				60D8B920286441A4000B6A83 /* CustomTextField.swift */,
+				60D8B922286445D4000B6A83 /* Extensions.swift */,
+				60FBC5132860BEDB00C76E58 /* TextShapes.swift */,
+			);
+			path = UtilViews;
+			sourceTree = "<group>";
+		};
+		60E1675C2862CBD300759E0D /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				60E1675F2862CC4700759E0D /* Mobius-Bridging-Headers.h */,
+				60E1675E2862CC4700759E0D /* ARMtlView.swift */,
+				60E1675D2862CC4700759E0D /* Renderer.swift */,
+				60E167602862CC4700759E0D /* Shaders.metal */,
+				60E167612862CC4700759E0D /* ShaderTypes.h */,
+			);
+			path = Metal;
 			sourceTree = "<group>";
 		};
 		60FCE88328483E6000F7BC35 /* ViewModels */ = {
@@ -215,13 +301,33 @@
 		60FCE88528483E9000F7BC35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				60D8B9242864471E000B6A83 /* UtilViews */,
 				6092F5F82855BBD000BEDFC0 /* ARViews */,
-				6086843628529F7900F32442 /* AvailableGamesView.swift */,
-				6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */,
-				6092F5F328559A0400BEDFC0 /* StartView.swift */,
-				6092F5F72855BBB300BEDFC0 /* Buttons */,
+				60FE1B742861278700F58CE2 /* DestinationViews */,
+				60FE1B712861273400F58CE2 /* MapViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		60FE1B712861273400F58CE2 /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				60FE1B6F2861272E00F58CE2 /* MiniMap.swift */,
+				60FE1B722861274C00F58CE2 /* MapPicker.swift */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
+		60FE1B742861278700F58CE2 /* DestinationViews */ = {
+			isa = PBXGroup;
+			children = (
+				6086843628529F7900F32442 /* AvailableGamesView.swift */,
+				6059D0802859BCA90036C159 /* GameDetailsView.swift */,
+				6092F5F92855BC2000BEDFC0 /* CreateGameView.swift */,
+				6092F5F328559A0400BEDFC0 /* StartView.swift */,
+				60D8B91E2862EDFD000B6A83 /* ViewCoordinator.swift */,
+			);
+			path = DestinationViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +347,7 @@
 			);
 			name = Mobius;
 			packageProductDependencies = (
+				60D8B91C2862E126000B6A83 /* RiveRuntime */,
 			);
 			productName = Mobius;
 			productReference = 60100E5B2840499600548B7F /* Mobius.app */;
@@ -317,6 +424,9 @@
 				Base,
 			);
 			mainGroup = 60100E522840499600548B7F;
+			packageReferences = (
+				60D8B91B2862E126000B6A83 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 60100E5C2840499600548B7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,8 +443,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D8B9182862E03B000B6A83 /* shapes.riv in Resources */,
+				60D8B9162862E03B000B6A83 /* check.riv in Resources */,
 				60100E682840499800548B7F /* Preview Assets.xcassets in Resources */,
+				60D8B9172862E03B000B6A83 /* menu_button.riv in Resources */,
+				60D8B9142862E03B000B6A83 /* house.riv in Resources */,
+				60D8B9192862E03B000B6A83 /* button.riv in Resources */,
 				60100E652840499800548B7F /* Assets.xcassets in Resources */,
+				60D8B9152862E03B000B6A83 /* confetti.riv in Resources */,
+				60D8B91A2862E03B000B6A83 /* icons.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,18 +476,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FE1B732861274C00F58CE2 /* MapPicker.swift in Sources */,
+				60FE1B702861272E00F58CE2 /* MiniMap.swift in Sources */,
 				6092F5FA2855BC2000BEDFC0 /* CreateGameView.swift in Sources */,
+				60FBC5142860BEDB00C76E58 /* TextShapes.swift in Sources */,
+				60D8B921286441A4000B6A83 /* CustomTextField.swift in Sources */,
 				6059D06428568C180036C159 /* ScheduledGame.swift in Sources */,
 				60100E5F2840499700548B7F /* AppDelegate.swift in Sources */,
 				60100E632840499700548B7F /* Experience.rcproject in Sources */,
 				6059D06228568BAB0036C159 /* GameCenterViewModel.swift in Sources */,
+				60E167642862CC4700759E0D /* Shaders.metal in Sources */,
+				60E167622862CC4700759E0D /* Renderer.swift in Sources */,
 				604DEBB928557F740055B463 /* GameCenterUtils.swift in Sources */,
+				60D8B91F2862EDFD000B6A83 /* ViewCoordinator.swift in Sources */,
 				6092F5F428559A0400BEDFC0 /* StartView.swift in Sources */,
-				60FCE87E2847C8AF00F7BC35 /* ARViewContainer.swift in Sources */,
-				6086843928544EA300F32442 /* StartButton.swift in Sources */,
 				60C523AB2850EBDF008A2EB3 /* FPSLayoutView.swift in Sources */,
+				60E167632862CC4700759E0D /* ARMtlView.swift in Sources */,
 				60C523A3284C83D0008A2EB3 /* Pickups.swift in Sources */,
+				6059D0812859BCA90036C159 /* GameDetailsView.swift in Sources */,
 				6013095D2841F71A00455B84 /* BattleRoyal.swift in Sources */,
+				60D8B923286445D4000B6A83 /* Extensions.swift in Sources */,
+				60FBC512286048B800C76E58 /* ARViewContainer.swift in Sources */,
 				6020C2122844779C007A00D8 /* ARBattleRoyal.swift in Sources */,
 				6086843728529F7900F32442 /* AvailableGamesView.swift in Sources */,
 				60FCE88228483E5100F7BC35 /* ARGameplayView.swift in Sources */,
@@ -460,12 +586,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -514,11 +643,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -529,17 +661,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mobius/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NJL5C3NL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Mobius/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit gamekit";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -553,6 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ABX.Mobius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobius/Metal/Mobius-Bridging-Headers.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -563,17 +699,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mobius/Preview Content\"";
 				DEVELOPMENT_TEAM = 2NJL5C3NL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Mobius/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit gamekit";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -587,6 +726,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ABX.Mobius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobius/Metal/Mobius-Bridging-Headers.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -708,6 +848,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60D8B91B2862E126000B6A83 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60D8B91C2862E126000B6A83 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60D8B91B2862E126000B6A83 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 60100E532840499600548B7F /* Project object */;
 }
