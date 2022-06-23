@@ -1,4 +1,6 @@
 # Mobius
+latest update video: https://youtu.be/MjEgIiQaEQk
+
 An Augmented Reality Battle Royal
 
 Coming in the next update: using two back cameras to create a stereo depth perception algorythm.
