@@ -24,6 +24,9 @@ struct GameCenterUtils{
             }
             GKAccessPoint.shared.isActive = localPlayer.isAuthenticated
         }
-
+    }
+    
+    mutating func createNewGame(details: ScheduledGame){
+        availableGames.append(details)
     }
 }

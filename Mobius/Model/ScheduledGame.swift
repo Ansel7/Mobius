@@ -13,6 +13,8 @@ struct ScheduledGame: Identifiable{
     let id = UUID()
     let host: String
     let startTime: String
+//    var color: Color
+//    var image: Image
     
 }
 
