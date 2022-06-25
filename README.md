@@ -5,4 +5,4 @@ An Augmented Reality Battle Royal
 
 i am considering creating a gameworld asset after the game is scheduled before the game is going to start.
 i will use some computer vision or mapkit data to create a 3d version of the selected game bounds region.
-this 3d scene will be used as a transparent mask that will be anchored the realworld buildings and be used for collision detection and occlusion masks.
+
